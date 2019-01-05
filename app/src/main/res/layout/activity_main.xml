@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    tools:context=".MainActivity">
+    <ImageView
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:id="@+id/logo_red"
+        android:src="@drawable/ic_logo_red"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" />
+    <View
+        android:layout_centerHorizontal="true"
+        android:paddingHorizontal="20dp"
+        android:id="@+id/line_horiz"
+        android:layout_below="@+id/logo_red"
+        android:background="@color/battleShipGrey"
+        android:layout_width="330dp"
+        android:layout_height="2dp" />
+
+    <FrameLayout
+        android:layout_marginVertical="8dp"
+        android:layout_below="@+id/line_horiz"
+        android:id="@+id/main_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/line_horiz_bot"/>
+
+    <View
+        android:layout_centerHorizontal="true"
+        android:id="@+id/line_horiz_bot"
+        android:layout_above="@+id/nav_bottom"
+        android:background="@color/battleShipGrey"
+        android:layout_width="330dp"
+        android:layout_height="2dp" />
+
+    <android.support.design.widget.BottomNavigationView
+        android:id="@+id/nav_bottom"
+        android:paddingTop="8dp"
+        android:layout_marginBottom="-12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/bottom_navigation"
+        android:background="?android:attr/windowBackground"/>
+
+</RelativeLayout>

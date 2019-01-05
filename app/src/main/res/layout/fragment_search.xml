@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu_container_search"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchFragment">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/search_type_group"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="136dp"
+            android:layout_marginTop="77dp"
+            android:layout_marginEnd="136dp"
+            android:layout_marginBottom="21dp"
+            android:src="@drawable/ic_search_loop" />
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_above="@+id/search_type_group"
+            android:text="Pilih golongan darah"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioGroup
+            android:layout_centerInParent="true"
+            android:id="@+id/search_type_group"
+            android:layout_marginVertical="12dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/search_a"
+                android:textAlignment="center"
+                android:button="@color/transparant"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="6dp"
+                android:textColor="@color/calmWhite"
+                android:text="A"
+                android:background="@drawable/blood_type_radio"
+                android:layout_width="33dp"
+                android:layout_height="33dp" />
+
+            <RadioButton
+                android:id="@+id/search_b"
+                android:textAlignment="center"
+                android:button="@color/transparant"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="6dp"
+                android:textColor="@color/calmWhite"
+                android:text="B"
+                android:background="@drawable/blood_type_radio"
+                android:layout_width="33dp"
+                android:layout_height="33dp" />
+
+            <RadioButton
+                android:id="@+id/search_o"
+                android:textAlignment="center"
+                android:button="@color/transparant"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="6dp"
+                android:textColor="@color/calmWhite"
+                android:text="O"
+                android:background="@drawable/blood_type_radio"
+                android:layout_width="33dp"
+                android:layout_height="33dp" />
+
+            <RadioButton
+                android:id="@+id/search_ab"
+                android:textAlignment="center"
+                android:button="@color/transparant"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:layout_marginHorizontal="6dp"
+                android:textColor="@color/calmWhite"
+                android:text="AB"
+                android:background="@drawable/blood_type_radio"
+                android:layout_width="33dp"
+                android:layout_height="33dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/search_type_group"
+            android:textColor="@color/calmWhite"
+            android:text="CARI"
+            android:id="@+id/findDonator"
+            android:background="@drawable/btn_rounded"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+
+</FrameLayout>

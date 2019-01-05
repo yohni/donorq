@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">DonorQ</string>
+    <string name="login">MASUK</string>
+    <string name="regist">DAFTAR</string>
+    <string name="message">MESSAGE</string>
+    <string name="call">CALL</string>
+    <string name="bg_splash">Splash Screen background</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_coba">Coba</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="username">UserName</string>
+    <string name="distance">Ada dalam radius</string>
+    <string name="pminame">PMI</string>
+    <string name="address">alamat PMI</string>
+    <string name="eventname">Event name</string>
+    <string name="event_time">11/09/2018</string>
+    <string name="countdown">5 days</string>
+    <string name="history_fragment">Belum pernah mengikuti event</string>
+    <string name="done">Selesai</string>
+</resources>

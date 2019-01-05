@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "470700426682",
+    "firebase_url": "https://donorq-876ed.firebaseio.com",
+    "project_id": "donorq-876ed",
+    "storage_bucket": "donorq-876ed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:470700426682:android:4c4dae05dc5c7493",
+        "android_client_info": {
+          "package_name": "com.example.yohni.donorq"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "470700426682-kqde479bvldnhfaaali8ple8sd9f9m9f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yohni.donorq",
+            "certificate_hash": "460e0c67d1db869c6a0187120b5c357d37ea0c79"
+          }
+        },
+        {
+          "client_id": "470700426682-iquih6icjfq4gj0j5te7fbtt5ak4iino.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCDIntUluu24qF7-fdUhJXbEDILN7bNH4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "470700426682-iquih6icjfq4gj0j5te7fbtt5ak4iino.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

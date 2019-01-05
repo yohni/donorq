@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="watermelon">#FF4545</color>
+    <color name="steelGrey">#5A606F</color>
+    <color name="calmWhite">#F2F4F7</color>
+    <color name="battleShipGrey">#C5CAD2</color>
+    <color name="shinnyWhite">#F7F8FC</color>
+    <color name="sweetPurple">#CEB4F0</color>
+    <color name="unradicalRed">#FE6C6C</color>
+    <color name="transparant">#00ffffff</color>
+</resources>

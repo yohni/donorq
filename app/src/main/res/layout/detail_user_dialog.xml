@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="340dp"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:background="@drawable/ic_indo_flag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/detail_img"
+            android:src="@drawable/ic_pp"
+            app:civ_circle_background_color="@color/watermelon"
+            android:layout_centerInParent="true"
+            android:layout_width="97dp"
+            android:layout_height="97dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:paddingHorizontal="32dp"
+        android:id="@+id/detail_username"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:text="Username"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:paddingHorizontal="32dp"
+        android:id="@+id/detail_points"
+        android:text="100 points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:paddingHorizontal="32dp"
+        android:layout_marginVertical="24dp"
+        android:weightSum="2"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/detail_call"
+            android:textColor="@color/watermelon"
+            android:background="@drawable/outline_rounded_basic"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="@string/call"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/detail_msg"
+            android:textColor="@color/watermelon"
+            android:background="@drawable/outline_rounded_basic"
+            android:padding="16dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:text="@string/message"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <Button
+        android:layout_marginBottom="32dp"
+        android:layout_marginHorizontal="32dp"
+        android:id="@+id/detail_request"
+        android:textColor="@color/calmWhite"
+        android:textStyle="bold"
+        android:text="Request"
+        android:background="@drawable/btn_rounded"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

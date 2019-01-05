@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/calmWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="1.3dp"
+    app:cardElevation="0dp"
+    android:layout_marginHorizontal="14dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:id="@+id/search_wrapper"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/list_donator_img"
+            android:layout_weight="0"
+            android:src="@drawable/ic_user_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp" />
+
+        <LinearLayout
+            android:padding="12dp"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:gravity="center_vertical"
+                    android:layout_weight="2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/steelGrey"
+                        android:layout_marginBottom="3dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="@string/username"
+                        android:id="@+id/userName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginBottom="16dp"
+                        android:textColor="@color/steelGrey"
+                        android:textSize="12dp"
+                        android:text="@string/distance"
+                        android:id="@+id/position_know"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+
+                <ImageButton
+                    android:scaleType="fitStart"
+                    android:background="@drawable/ic_more_vert_black_24dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="end"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:textColor="@color/watermelon"
+                    android:layout_marginHorizontal="6dp"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:background="@drawable/btn_outline"
+                    android:text="@string/message"
+                    android:id="@+id/btn_message"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <Button
+                    android:textColor="@color/calmWhite"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:background="@drawable/btn_rounded"
+                    android:text="@string/call"
+                    android:id="@+id/btn_call"
+                    android:layout_width="48dp"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

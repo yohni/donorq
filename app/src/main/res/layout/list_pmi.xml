@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/calmWhite"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="1.3dp"
+    app:cardElevation="0dp"
+    android:layout_marginHorizontal="14dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/pmi_img"
+            android:layout_weight="0"
+            android:src="@drawable/ic_user_image"
+            android:layout_width="110dp"
+            android:layout_height="110dp" />
+
+        <LinearLayout
+            android:paddingHorizontal="16dp"
+            android:gravity="center_vertical"
+            android:padding="9dp"
+            android:layout_weight="2.8"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:weightSum="3"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="2.8"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="@color/steelGrey"
+                        android:layout_marginBottom="3dp"
+                        android:textStyle="bold"
+                        android:textSize="18dp"
+                        android:text="@string/pminame"
+                        android:id="@+id/pmi_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:layout_marginBottom="4dp"
+                        android:textColor="@color/steelGrey"
+                        android:textSize="12dp"
+                        android:text="@string/address"
+                        android:id="@+id/pmi_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+
+                </LinearLayout>
+
+
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:textColor="@color/battleShipGrey"
+                android:layout_marginHorizontal="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom|end"
+                android:text="Tap untuk melihat stok darah"
+                android:textSize="10dp"
+                android:textStyle="italic" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
